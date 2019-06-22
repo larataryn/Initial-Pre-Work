@@ -1,0 +1,26 @@
+/* The justify-content property is used to manage the positioning and spacing of items within a flex container. Options for justify-content include: center (center-aligned), flex-start (left-aligned), flex-end (right-aligned), space-between (first item left aligned, last item right aligned, all other items spaced evenly between), and space-around (all items are distributed across the space equally). */
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

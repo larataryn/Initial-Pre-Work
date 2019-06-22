@@ -1,0 +1,25 @@
+/* A parent container that is given the flex property can position it's child elements by using the flex-direction property. The default alignment is row, however elements can also be organized by column, row-reverse, and column-reverse. The reverse options simply flip the order of the child elements. */
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row-reverse;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

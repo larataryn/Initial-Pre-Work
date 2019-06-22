@@ -1,0 +1,26 @@
+/* The align-items property functions similarly to justify-content, however it adjusts the positioning of items along the opposite axis of justify-content (aligning elements vertically for rows, or horizontally for columns). Options for align-items are: flex-start (top-aligned), flex-end (bottom-aligned), center (center-aligned with equal space above and below), stretch (stretched to fill contained from top to bottom), baseline (aligned to baseline). */
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>

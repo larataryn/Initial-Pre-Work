@@ -1,0 +1,26 @@
+/* The flex-shrink property controls how items within a container should resize if their container decreases in size. The flex-shrink value is set with a number. Items with a higher number number will shrink faster than items with lower numbers. */
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 1;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 2;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
