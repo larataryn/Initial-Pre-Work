@@ -1,0 +1,11 @@
+/* This section just reiterates the ideas expressed in the last section: the other elements will inherit the styles defined in the body. */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+<h1>Hello World</h1>

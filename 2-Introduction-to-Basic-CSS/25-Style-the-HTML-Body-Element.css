@@ -1,0 +1,7 @@
+/* A body element exists for every HTML page and it can be modified using the same syntax as the other elements. Style elements applied to the body will affect all items in the body, unless they are overridden by an id, class, or attribute style. */
+
+<style>
+  body {
+    background-color:black;
+  }
+</style>

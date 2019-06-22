@@ -1,0 +1,19 @@
+/* Finally, you can identify a style element with '!important' to ensure that no other style can override it. This is particuarly useful when working with CSS libraries as they can unintentionally override your existing CSS code. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>

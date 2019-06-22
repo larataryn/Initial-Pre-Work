@@ -1,0 +1,15 @@
+/* It's important to include backup values for CSS variables in the event that the variable is not compatible with the viewing browser. This is done simply by adding an additional property declaration with a more basic syntax right before the declaration with the variable. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

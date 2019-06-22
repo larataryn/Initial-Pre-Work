@@ -1,0 +1,7 @@
+/* Hex codes can be used to represent colors. This allows for more nuanced colors than just the basic color names. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
